@@ -2,7 +2,7 @@ import numpy as np
 import random
 
 def magic_square(n):
-    # create magic square of size n
+    # create magic square of size nd
     magic = np.zeros((n,n), dtype=int)
     i, j = 0, n//2
     for num in range(1, n*n+1):
